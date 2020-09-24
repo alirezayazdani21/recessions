@@ -15,14 +15,13 @@ library(caTools)
 library(hmeasure)
 ##########################################################################
 
-setwd("C:/Users/HANNAH_SOPHIE/Desktop/MISCELANEOUS/MISCELANEOUS/Recession Prediction")
-
 ##########################################################################
 options(digits = 5)
 options(scipen = 999)
 
 rm(list = ls())
 ##########################################################################
+#please download NBER recessions date from: https://www.nber.org/cycles.html
 NBER<- read_xlsx("NBER_RECESSIONS.xlsx")
 
 getSymbols("^GSPC",src="yahoo",from = as.Date("1900-01-01"))#SP500 INDEX
