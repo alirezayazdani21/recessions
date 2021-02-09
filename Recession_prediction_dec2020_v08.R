@@ -15,8 +15,6 @@ library(caTools)
 library(hmeasure)
 ##########################################################################
 
-setwd("C:/Users/HANNAH_SOPHIE/Desktop/MISCELANEOUS/MISCELANEOUS/Recession Prediction")
-
 ##########################################################################
 options(digits = 5)
 options(scipen = 999)
